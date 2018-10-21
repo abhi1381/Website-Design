@@ -1,0 +1,53 @@
+body {
+	font-family: Lato, sans-serif;
+}
+
+#navbar-toggler-icon {
+	color: #FFA500;
+	 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 5 32 23' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#FFA500' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-right {
+	margin-right: 0;
+}
+.navbar-custom {
+	padding: 10px;
+	background: #000, rgba(0,0,0,0.3);
+}
+.nav-item, .navbar-brand {
+	padding-left: 20px;
+	padding-right: 20px;
+} 
+
+.navbar-nav li a {
+	color: #FFA500;
+} 
+.container-fluid {
+	background: #000;
+}
+
+#lnmiitlogo {
+	width: 80px;
+	height: 40px;
+	float: right;
+	margin-left: 10px;
+}
+.jumbotron {
+	height: 500px;
+	background-color: #000;
+}
+.container {
+	display: flex;
+	align-items: center;
+}
+.row {
+	padding-top: 5%;
+}
+
+.header-text {
+	color: #FFA500;
+	font-size: 100px;
+}
+.header-para {
+	color: #FFA500;
+	font-size: 20px;
+}
