@@ -11,7 +11,7 @@ body {
 }
 .navbar-custom {
 	padding: 10px;
-	background: #000, rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.2);
 }
 .nav-item, .navbar-brand {
 	padding-left: 20px;
@@ -21,9 +21,7 @@ body {
 .navbar-nav li a {
 	color: #FFA500;
 } 
-.container-fluid {
-	background: #000;
-}
+
 
 #lnmiitlogo {
 	width: 80px;
@@ -34,11 +32,9 @@ body {
 .jumbotron {
 	height: 500px;
 	background-color: #000;
+	margin-bottom: 0px;
 }
-.container {
-	display: flex;
-	align-items: center;
-}
+
 .row {
 	padding-top: 5%;
 }
@@ -46,8 +42,33 @@ body {
 .header-text {
 	color: #FFA500;
 	font-size: 100px;
+	text-align: center;
 }
 .header-para {
 	color: #FFA500;
 	font-size: 20px;
+	font-style: italic;
+	font-weight: 100;
+	word-spacing: 0.2em;
+	text-align: center;
+	margin-bottom: 0px !important;
+}
+
+
+
+.club-container {
+	color: #000;
+	font-family: 'Krub', sans-serif;
+	text-align: center;
+	font-style: italic;
+	font-weight: 10;
+	font-size: 20px;
+	word-spacing: 0.2em;
+	margin: 0px !important;
+	padding: 30px;
+	min-height: 400px;
+}
+.club-row-inline {
+	font-weight: 600;
+	color: #FFA500;
 }
