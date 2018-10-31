@@ -30,19 +30,28 @@ body {
 	margin-left: 10px;
 }
 .jumbotron {
-	height: 500px;
+	min-height: 600px;
 	background-color: #000;
 	margin-bottom: 0px;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	min-height: 700px;
+}
 }
 
 .row {
 	padding-top: 5%;
 }
 
+h1 {
+	font-size: 150px !important;
+}
 .header-text {
 	color: #FFA500;
 	font-size: 100px;
 	text-align: center;
+	margin-bottom: 80px;
 }
 .header-para {
 	color: #FFA500;
@@ -53,7 +62,20 @@ body {
 	text-align: center;
 	margin-bottom: 0px !important;
 }
-
+.button-row {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.header-button {
+	color: #FFA500;
+	border-color: #FFA500;
+	width: 200px;
+}
+.header-botton:hover {
+	background-color: #FFA500;
+}
 
 
 .club-container {
