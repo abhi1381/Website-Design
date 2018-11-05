@@ -49,3 +49,12 @@
 .fa-github {
 	color: #000000;
 }
+.checkout-text, .fa-chevron-right {
+	color: #FFA500;
+}
+
+.division-info {
+	color: #FFA500;
+	font-size: 18px;
+	font-family: 'Average', serif;
+}
