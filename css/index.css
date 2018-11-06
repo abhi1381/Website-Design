@@ -2,6 +2,7 @@ body {
 	font-family: Lato, sans-serif;
 }
 
+
 #navbar-toggler-icon {
 	color: #FFA500;
 	 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 5 32 23' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#FFA500' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -10,7 +11,7 @@ body {
 	margin-right: 0;
 }
 .navbar-custom {
-	padding: 10px;
+	padding: 0px 10px;
 	background-color: rgba(0,0,0,0.2);
 }
 .nav-item, .navbar-brand {
@@ -25,7 +26,7 @@ body {
 
 #lnmiitlogo {
 	width: 80px;
-	height: 40px;
+	height: 30px;
 	float: right;
 	margin-left: 10px;
 }
@@ -73,8 +74,11 @@ h1 {
 	border-color: #FFA500;
 	width: 200px;
 }
-.header-botton:hover {
+.header-button:hover {
+	color: #fff;
 	background-color: #FFA500;
+	border-color: #FFA500;
+	font-style: normal;
 }
 
 
@@ -92,5 +96,65 @@ h1 {
 }
 .club-row-inline {
 	font-weight: 600;
+	color: #FFA500;
+}
+
+.highlight-container {
+	margin: 0px !important;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.highlight-text {
+	font-family: 'Krub', sans-serif;
+	text-align: center;
+	font-size: 50px;
+}
+.carousel-image {
+	height: 600px;
+	width: 100%;
+}
+
+
+
+
+.footer-container {
+	background-color: #000;
+	margin: 0px !important;
+	padding-top: 25px;
+	min-height: 250px !important;
+}
+.footer-row {
+	
+	font-family: 'Krub', sans-serif;
+	padding: 20px 0px;
+	text-align: center;
+	color: #FFA500;
+}
+.footer-row-extra {
+	background-color: #FFA500;
+	max-height: 50px;
+}
+.footer-image {
+	width: 150px;
+	height:50px;
+	margin-top: 10px;
+}
+.footer-social {
+	font-size: 30px;
+	margin-top: 20px;
+}
+.fa-facebook {
+	color: #4267B2;
+}
+.fa-youtube {
+	color: #FF0000;
+}
+.fa-envelope-o {
+	color: #cccccc;
+}
+.fa-map-marker {
+	font-size: 30px;
 	color: #FFA500;
 }
