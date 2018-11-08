@@ -8,9 +8,10 @@ body {
 	 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 5 32 23' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#FFA500' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .navbar-right {
-	margin-right: 0;
+	margin-right: 0px;
 }
 .navbar-custom {
+	margin: auto;
 	padding: 0px 10px;
 	background-color: rgba(0,0,0,0.2);
 }
@@ -31,7 +32,6 @@ body {
 	margin-left: 10px;
 }
 .jumbotron {
-	min-height: 600px;
 	background-color: #000;
 	margin-bottom: 0px;
   	display: flex;
@@ -45,9 +45,7 @@ body {
 	padding-top: 5%;
 }
 
-h1 {
-	font-size: 150px !important;
-}
+
 .header-text {
 	color: #FFA500;
 	font-size: 100px;
