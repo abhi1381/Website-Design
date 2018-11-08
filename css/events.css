@@ -21,3 +21,10 @@
 	text-align: center;
 	font-size: 80px;
 }
+.events-image {
+	transition: width 1s, height 1s;
+}
+.events-image:hover {
+	width: 540px;
+	height: 350px;
+}
