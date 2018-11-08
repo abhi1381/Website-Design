@@ -1,0 +1,30 @@
+.events-container {
+	padding-top: 20px;
+}
+.events-row {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.events-image {
+	width: 270px;
+	height: 150px;
+}
+.events-heading {
+	font-family: 'Average', serif;
+}
+.events-text {
+	font-family: 'Average', serif;
+	font-style: italic;
+}
+.plinth-text {
+	font-family: 'Average', serif;
+	text-align: center;
+	font-size: 80px;
+}
+.events-image {
+	transition: width 1s, height 1s;
+}
+.events-image:hover {
+	width: 540px;
+	height: 350px;
+}
